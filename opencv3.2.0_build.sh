@@ -47,11 +47,12 @@ apt-get install -y libdc1394-22
 apt-get install -y libdc1394-utils 
 apt-get install -y libv4l-0 
 apt-get install -y libv4l-dev 
-apt-get install -y libtbb-dev 
+apt-get install -y libtbb-dev
+apt-get install -y libgtk2.0-dev 
 
 echo "Making opencv3.2.0 directory..."
-mkdir ~/opencv
-cd ~/opencv
+mkdir /media/linaro/OpenCV/OpenCV/opencv
+cd /media/linaro/OpenCV/OpenCV/opencv
 
 echo "Downloading opencv source code..."
 wget https://sourceforge.net/projects/opencvlibrary/files/opencv-unix/3.2.0/opencv-3.2.0.zip
@@ -61,7 +62,7 @@ cd opencv-3.2.0
 echo "Making release directory..."
 mkdir release
 cd release
-cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_ZLIB=ON -D BUILD_PYTHON_SUPPORT=ON ~/opencv/opencv-3.2.0
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_ZLIB=ON -D BUILD_PYTHON_SUPPORT=ON /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0
 echo "Building opencv-3.2.0..."
 make
 
