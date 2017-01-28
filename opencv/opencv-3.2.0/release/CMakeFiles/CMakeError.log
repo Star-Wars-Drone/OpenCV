@@ -1,0 +1,398 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0093/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0093.dir/build.make CMakeFiles/cmTC_d0093.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d0093.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_d0093.dir/src.cxx.o -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_d0093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0093.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_d0093.dir/src.cxx.o  -o cmTC_d0093 -rdynamic 
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70bf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70bf2.dir/build.make CMakeFiles/cmTC_70bf2.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70bf2.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_70bf2.dir/src.cxx.o -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_70bf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70bf2.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_70bf2.dir/src.cxx.o  -o cmTC_70bf2 -rdynamic 
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_729cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_729cc.dir/build.make CMakeFiles/cmTC_729cc.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_729cc.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_729cc.dir/src.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_729cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_729cc.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_729cc.dir/src.c.o  -o cmTC_729cc -rdynamic 
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a556f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a556f.dir/build.make CMakeFiles/cmTC_a556f.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a556f.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_a556f.dir/src.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_a556f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a556f.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_a556f.dir/src.c.o  -o cmTC_a556f -rdynamic 
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e2d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e2d6.dir/build.make CMakeFiles/cmTC_3e2d6.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e2d6.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_3e2d6.dir/src.cxx.o -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking CXX executable cmTC_3e2d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e2d6.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_3e2d6.dir/src.cxx.o  -o cmTC_3e2d6 -rdynamic 
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c27b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c27b9.dir/build.make CMakeFiles/cmTC_c27b9.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c27b9.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_c27b9.dir/src.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking C executable cmTC_c27b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c27b9.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_c27b9.dir/src.c.o  -o cmTC_c27b9 -rdynamic 
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58705/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58705.dir/build.make CMakeFiles/cmTC_58705.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58705.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_58705.dir/src.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_58705
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58705.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_58705.dir/src.c.o  -o cmTC_58705 -rdynamic 
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c19ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c19ad.dir/build.make CMakeFiles/cmTC_c19ad.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c19ad.dir/OFF64_T.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_c19ad.dir/OFF64_T.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: error: ‘off64_t’ undeclared here (not in a function)
+ #define SIZE (sizeof(off64_t))
+                      ^
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_c19ad.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c19ad.dir/OFF64_T.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c19ad.dir/OFF64_T.c.o] Error 1
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c19ad/fast' failed
+make: *** [cmTC_c19ad/fast] Error 2
+
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-shorten-64-to-32"'
+Compilation failed:
+    source file: '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5777/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5777.dir/build.make CMakeFiles/cmTC_e5777.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5777.dir/src.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fPIC  -O3 -DNDEBUG   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_e5777.dir/src.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-shorten-64-to-32"
+Linking C executable cmTC_e5777
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5777.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fPIC  -O3 -DNDEBUG    CMakeFiles/cmTC_e5777.dir/src.c.o  -o cmTC_e5777 -rdynamic 
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-shift-negative-value"'
+Compilation failed:
+    source file: '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shift-negative-value'
+===== BUILD LOG =====
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac957/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac957.dir/build.make CMakeFiles/cmTC_ac957.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac957.dir/src.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG   -Wno-shift-negative-value -o CMakeFiles/cmTC_ac957.dir/src.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-shift-negative-value"
+Linking C executable cmTC_ac957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac957.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG    CMakeFiles/cmTC_ac957.dir/src.c.o  -o cmTC_ac957 -rdynamic 
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c440/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c440.dir/build.make CMakeFiles/cmTC_7c440.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c440.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_7c440.dir/CheckIncludeFile.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTC_7c440.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7c440.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7c440.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7c440/fast' failed
+make: *** [cmTC_7c440/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57f7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57f7e.dir/build.make CMakeFiles/cmTC_57f7e.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57f7e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_57f7e.dir/CheckIncludeFile.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTC_57f7e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_57f7e.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_57f7e.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_57f7e/fast' failed
+make: *** [cmTC_57f7e/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test CXX_HAS_MFPU_NEON failed with the following output:
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_caac5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_caac5.dir/build.make CMakeFiles/cmTC_caac5.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_caac5.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -DCXX_HAS_MFPU_NEON -O3 -DNDEBUG -fPIE   -mfpu=neon -o CMakeFiles/cmTC_caac5.dir/src.cxx.o -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-mfpu=neon'
+CMakeFiles/cmTC_caac5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_caac5.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_caac5.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_caac5/fast' failed
+make: *** [cmTC_caac5/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS_MFPU_NEON failed with the following output:
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adfc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adfc4.dir/build.make CMakeFiles/cmTC_adfc4.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adfc4.dir/src.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -DC_HAS_MFPU_NEON -O3 -DNDEBUG -fPIE   -mfpu=neon -o CMakeFiles/cmTC_adfc4.dir/src.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-mfpu=neon'
+CMakeFiles/cmTC_adfc4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_adfc4.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_adfc4.dir/src.c.o] Error 1
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_adfc4/fast' failed
+make: *** [cmTC_adfc4/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_236c2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_236c2.dir/build.make CMakeFiles/cmTC_236c2.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_236c2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_236c2.dir/CheckIncludeFile.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTC_236c2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_236c2.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_236c2.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_236c2/fast' failed
+make: *** [cmTC_236c2/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_920c2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_920c2.dir/build.make CMakeFiles/cmTC_920c2.dir/build
+make[1]: Entering directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_920c2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_920c2.dir/CheckIncludeFile.c.o   -c /media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTC_920c2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_920c2.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_920c2.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/linaro/OpenCV/OpenCV/opencv/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_920c2/fast' failed
+make: *** [cmTC_920c2/fast] Error 2
+
+
