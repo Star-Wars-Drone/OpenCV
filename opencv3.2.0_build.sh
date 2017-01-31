@@ -34,10 +34,10 @@ apt-get install -y libswscale-dev
 apt-get install -y openexr 
 apt-get install -y libopenexr-dev 
 apt-get install -y libopenexr6 
-apt-get install -y libgstreamer0.10-0-dbg 
-apt-get install -y libgstreamer0.10-0 
-apt-get install -y libgstreamer0.10-dev 
-apt-get install -y libgstreamer-plugins-base0.10-dev 
+apt-get install -y libgstreamer1.0-0-dbg 
+apt-get install -y libgstreamer1.0-0 
+apt-get install -y libgstreamer1.0-dev 
+apt-get install -y libgstreamer-plugins-base1.0-dev 
 apt-get install -y libxine2-dev 
 apt-get install -y libxine2-ffmpeg 
 apt-get install -y libunicap2 
