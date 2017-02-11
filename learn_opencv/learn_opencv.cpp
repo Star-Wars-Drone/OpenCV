@@ -14,6 +14,8 @@
 
 int mouse_x = 0;
 int mouse_y = 0;
+float pixel_width,obj_width;
+float focal_length = 1122;
 
 using namespace std;
 using namespace cv;
@@ -98,10 +100,21 @@ void drawObject(vector<TrackableObject> objects,Mat &frame)
 
 }
 
+int calibrateCamera(int pixel_width,int distance, int obj_width)
+{
+	return ((pixel_width * distance) / obj_width);
+}
+
+int distancefromObject(int obj_width,float focal_length,int pixel_width)
+{
+	return ((obj_width * focal_length) / pixel_width);
+}
+
 void trackObjects(int &x, int&y, Mat imgThresholded,Mat &frame)
 {
 	Mat temp;
 	imgThresholded.copyTo(temp);
+	int distance;
 
 	Moments moment;
 
@@ -164,8 +177,10 @@ void trackObjects(int &x, int&y, Mat imgThresholded,Mat &frame)
 						rectangle(frame,boundRect[i].tl(),boundRect[i].br(),color,21,8,0);
 					}
 				}
-				putText(frame,"Pixel Width " + intToString(width),Point(0,100),2,1,Scalar(0,0,255),2);
-				
+				//putText(frame,"Pixel Width " + intToString(width),Point(0,100),2,1,Scalar(0,0,255),2);
+				pixel_width = width;
+				distance = distancefromObject(4.25,focal_length,pixel_width);
+				putText(frame,"Distance (inches) " + intToString(distance),Point(0,100),2,1,Scalar(0,0,255),2);
 			}
 			else
 			{
@@ -175,10 +190,12 @@ void trackObjects(int &x, int&y, Mat imgThresholded,Mat &frame)
 	}
 }
 
+
 int main(int argc, char** argv[])
 {
 	cout << "Hello World!" << endl;
 	VideoCapture cap("/dev/video0");
+	//VideoCapture cap1("/dev/video2");
 	cap.set(CV_CAP_PROP_FPS,15);
 
 	int fps = cap.get(CAP_PROP_FPS);
@@ -219,7 +236,9 @@ int main(int argc, char** argv[])
 	while(1)
 	{
 		Mat frame;
+		//Mat frame1;
 		bool bSuccess = cap.read(frame);
+		//bSuccess = cap1.read(frame1);
 		if(!bSuccess)
 		{
 			cout << "Failed to read from camera." << endl;
@@ -241,12 +260,19 @@ int main(int argc, char** argv[])
 
 		imshow("Thresholded Image",imgThresholded);
 		imshow("MyCameraFeed",frame);
+		//imshow("Camera2",frame1);
 		
 
 		if(waitKey(30) == 27)
 		{
 			cout << "Esc key was pressed." << endl;
 			break;
+		}
+		if(waitKey(30) == 99)
+		{
+			focal_length = calibrateCamera(pixel_width,12,4.25);
+			cout << "Camere calibrated." << endl;
+			cout << focal_length << endl;
 		}
 	}
 
